@@ -1,0 +1,1 @@
+c:\users\cursonet\documents\visual studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.exe.config
