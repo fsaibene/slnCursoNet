@@ -15,5 +15,19 @@ namespace Entidades
         public string Telefono { get; set; }
         public string Direccion { get; set; }
 
+        public Proveedor(string nombre, string contacto, string cuit, string email, string telefono, string direccion)
+        {
+            Nombre = nombre;
+            Contacto = contacto;
+            Cuit = cuit;
+            Email = email;
+            Telefono = telefono;
+            Direccion = direccion;
+        }
+
+        public override string ToString()
+        {
+            return "Proveedor:\nNombre: " + Nombre + "\nContacto:" + Contacto;
+        }
     }
 }

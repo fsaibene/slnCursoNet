@@ -1,1 +1,11 @@
 c:\users\cursonet\documents\visual studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.exe.config
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.exe
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.pdb
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\Entidades.dll
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\bin\Debug\Entidades.pdb
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.Form1.resources
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.exe
+C:\Users\cursonet\Documents\Visual Studio 2015\Projects\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.pdb
