@@ -1,12 +1,6 @@
 ﻿using Entidades;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsApp
@@ -18,7 +12,16 @@ namespace WindowsApp
         {
             InitializeComponent();
             entitiesList = new List<object>();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
             LoadEntities();
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            ShowEntities();
         }
 
         private void ShowEntity(object entity)
@@ -34,15 +37,15 @@ namespace WindowsApp
             entitiesList.Add(new Producto("Botella", "cosas", 10, 10, "P1", "Algo", "AlgoAlgo"));
             entitiesList.Add(new Factura("A", "1112321", DateTime.Now, "Alguien", "Mitre 750", "asfasf", "fdfdf", "compra de cosas", 100));
             entitiesList.Add(new Remito("2255", DateTime.Now, "AlguienMas", "Cerrito 1186", "ajjgd", "asdlasd", "detaillll", DateTime.Now, 55000));
-
         }
 
-        private void btnMostrar_Click(object sender, EventArgs e)
+        private void ShowEntities()
         {
             foreach (object item in entitiesList)
             {
                 ShowEntity(item);
             }
         }
+
     }
 }
