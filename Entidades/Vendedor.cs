@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Vendedor
+    public class Vendedor : Persona
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
         public string Dni { get; set; }
-        public string Email { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
-
         public Vendedor(string nombre, string apellido, string dni, string email, string telefono, string direccion)
-        {
+      {
             Nombre = nombre;
             Apellido = apellido;
             Dni = dni;

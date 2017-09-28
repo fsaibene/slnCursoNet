@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class ClienteIndividuo
+    public class ClienteIndividuo : Persona
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
         public string Cuit { get; set; }
-        public string Email { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
 
         public ClienteIndividuo(string nombre, string apellido, string cuit, string email, string telefono, string direccion)
         {

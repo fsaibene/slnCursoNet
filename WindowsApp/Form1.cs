@@ -28,8 +28,7 @@ namespace WindowsApp
 
         private void LoadEntities()
         {
-            entitiesList.Add(new Proveedor("P1", "A1", "112233", "proveedor@proveedor.com", "555554444", "Calle A 123"));
-            entitiesList.Add(new ClienteEmpresa("ClienteE", "33-22222222-1", "1122332", "ClienteEmpresa@ClienteEmpresa.com", "555554444", "Calle B 123"));
+            entitiesList.Add(new Empresa("P1", "A1", "112233", "proveedor@proveedor.com", "555554444", "Calle A 123"));
             entitiesList.Add(new ClienteIndividuo("ClienteI", "Apellido", "33-22222222-1", "ClienteEmpresa@ClienteEmpresa.com", "555554444", "Calle B 123"));
             entitiesList.Add(new Vendedor("Pepe", "Argento", "112233", "Vendedor@Vendedor.com", "555554444", "Calle D 123"));
             entitiesList.Add(new Producto("Botella", "cosas", 10, 10, "P1", "Algo", "AlgoAlgo"));
