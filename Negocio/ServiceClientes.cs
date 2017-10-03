@@ -3,22 +3,22 @@ using System.Collections.Generic;
 
 namespace Negocio
 {
-    public class ServiceClientes
+    public static class ServiceClientes
     {
-        public List<ClienteIndividuo> ListarClienteIndividuo()
+        public static List<ClienteIndividuo> ListarClienteIndividuo()
         {
             return null;
         }
-        public ClienteIndividuo ListarClienteIndividuo(string Cuit)
+        public static ClienteIndividuo ListarClienteIndividuo(string Cuit)
         {
             return null;
         }
 
-        public List<Empresa> ListarClienteEmpresa()
+        public static List<Empresa> ListarClienteEmpresa()
         {
             return null;
         }
-        public Empresa ListarClienteEmpresa(string Cuit)
+        public static Empresa ListarClienteEmpresa(string Cuit)
         {
             return null;
         }

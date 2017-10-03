@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 namespace Negocio
 {
-    public class ServiceFacturas
+    public static class ServiceFacturas
     {
-        public void Generar(List<Producto> productos, ClienteIndividuo cliente)
+        public static void Generar(List<Producto> productos, ClienteIndividuo cliente)
         {
         }
 
-        public void Generar(List<Producto> productos, Empresa cliente)
+        public static void Generar(List<Producto> productos, Empresa cliente)
         {
 
         }

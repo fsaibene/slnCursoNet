@@ -2,29 +2,29 @@
 
 namespace Negocio
 {
-    public class ServiceCompras
+    public static class ServiceCompras
     {
-        public void Agregar(Producto item, int cantidad)
+        public static void Agregar(Producto item, int cantidad)
         {
 
         }
 
-        public void Modificar(int cantidad)
+        public static void Modificar(int cantidad)
         {
 
         }
 
-        public void Eliminar(string nombre)
+        public static void Eliminar(string nombre)
         {
 
         }
 
-        public void Confirmar(Vendedor vendedor)
+        public static void Confirmar(Vendedor vendedor)
         {
 
         }
 
-        public void Cancelar()
+        public static void Cancelar()
         {
 
         }
