@@ -4,13 +4,9 @@
     {
         public string Cuit { get; set; }
 
-        public ClienteIndividuo(string nombre, string apellido, string cuit, string email, string telefono, string direccion)
+        public ClienteIndividuo(string nombre, string apellido, string cuit, DatosContacto datosContacto): base(nombre, apellido, datosContacto)
         {
-            Nombre = nombre;
             Cuit = cuit;
-            Email = email;
-            Telefono = telefono;
-            Direccion = direccion;
         }
 
         public override string ToString()

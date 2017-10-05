@@ -20,11 +20,11 @@ namespace Entidades
         public decimal PrecioVenta {
             get { return PrecioBruto + Convert.ToDecimal(1 + IVA); }
         }
-        public string Proveedor { get; set; }
-        public string Categoria { get; set; }
-        public string SubCategoria { get; set; }
+        public Empresa Proveedor { get; set; }
+        public Categoria Categoria { get; set; }
+        public Categoria SubCategoria { get; set; }
 
-        public Producto(string nombre, string descripcion, decimal precioCosto, double margen, string proveedor, string categoria, string subCategoria)
+        public Producto(string nombre, string descripcion, decimal precioCosto, double margen, Empresa proveedor, Categoria categoria, Categoria subCategoria)
         {
             Nombre = nombre;
             Descripcion = descripcion;

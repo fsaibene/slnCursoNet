@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Entidades
 {
@@ -10,8 +11,8 @@ namespace Entidades
         public string Direccion { get; set; }
         public string CondicionIVA { get; set; }
         public string CondicionVenta { get; set; }
-        public string Detalle { get; set; }
-        public decimal Total { get; set; }
+        public List<Item> Detalle { get; set; }
+        public decimal Total { get; }
 
         public DocumentoComercial()
         {

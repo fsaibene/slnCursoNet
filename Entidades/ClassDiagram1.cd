@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.ClienteEmpresa" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAEACAAgAAAAAAAAAAAAAAAAkAAAAA=</HashCode>
+      <FileName>ClienteEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ClienteIndividuo" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClienteIndividuo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.DatosContacto" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DatosContacto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.DocumentoComercial" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAEAACCCAAAAAAAQQAAAAAAAAAABAAA=</HashCode>
+      <FileName>DocumentoComercial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Empresa" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Empresa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DatosContacto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Entidades.Factura" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Persona" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DatosContacto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Entidades.Producto" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAkABAAgAAFgAAAAAAAAAgCAAAAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Proveedor" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAEACAAgAAAAAAAAAAAAAAAAkAAAAA=</HashCode>
+      <FileName>Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Remito" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Remito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Vendedor" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vendedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
